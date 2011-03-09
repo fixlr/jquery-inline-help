@@ -1,0 +1,5 @@
+Display a value in "data-help" attribute inside <span class="help" />
+when an element is focused.  Remove on blur.
+
+Example: apply to all input elements with a data-help attribute
+  $('input[data-help]').inlineHelp()
